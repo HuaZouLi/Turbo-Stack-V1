@@ -17,6 +17,9 @@ target/
 *.swp
 *.swo
 
+# Kiro settings (contains personal tokens)
+.kiro/settings/mcp.json
+
 # Logs
 logs/
 *.log

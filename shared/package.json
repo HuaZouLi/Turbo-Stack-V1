@@ -1,0 +1,24 @@
+{
+  "name": "@turbo-stack/shared",
+  "version": "1.0.0",
+  "description": "Shared types, utils and constants for Turbo-Stack",
+  "type": "module",
+  "exports": {
+    "./types/*": "./types/*",
+    "./utils/*": "./utils/*",
+    "./constants/*": "./constants/*",
+    "./composables/*": "./composables/*"
+  },
+  "files": [
+    "types",
+    "utils",
+    "constants",
+    "composables"
+  ],
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "devDependencies": {
+    "vue": "^3.5.13"
+  }
+}

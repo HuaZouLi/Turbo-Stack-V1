@@ -1,0 +1,17 @@
+{
+  "name": "turbo-stack-v1",
+  "version": "1.0.0",
+  "description": "AI 原生的全栈开发底座",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen:types": "openapi-typescript http://localhost:8080/v3/api-docs -o shared/types/api.d.ts"
+  },
+  "devDependencies": {
+    "openapi-typescript": "^7.4.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

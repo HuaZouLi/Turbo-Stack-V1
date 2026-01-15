@@ -48,6 +48,7 @@ temp/
 # Maven
 .mvn/
 !.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
 
 # Gradle
 .gradle/
@@ -60,3 +61,7 @@ unpackage/
 .cache/
 .eslintcache
 .stylelintcache
+
+# Other IDE configs
+.cursor/
+.trae/
